@@ -1,0 +1,33 @@
+.books-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .category {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .category-history {
+    color: blue;
+  }
+  
+  .category-romance {
+    color: red;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  

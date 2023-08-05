@@ -1,0 +1,101 @@
+/* UserBooking.css */
+.user-booking {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .search-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .search-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .search-box form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-box input[type='text'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-book-details {
+    margin-top: 20px;
+  }
+  
+  .view-book-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .view-book-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .view-book-details li {
+    margin-bottom: 10px;
+  }
+  
+  .right-side table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .right-side th,
+  .right-side td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .right-side th {
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+  
+  .right-side tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Buy Now button style for both sections */
+  .view-book-details button,
+  .right-side button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-book-details button:hover,
+  .right-side button:hover {
+    background-color: #0056b3;
+  }
+  

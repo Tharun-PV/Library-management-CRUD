@@ -1,0 +1,393 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: rgb(62, 158, 78);
+  padding: 7px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li a {
+  font-size: 1.5rem;
+}
+
+nav .right-links {
+  margin-left: auto;
+}
+
+nav .search-form {
+  margin-right: 20px;
+}
+
+nav li:not(.logo-img) {
+  margin-left: 10px;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.logo {
+  order: -1;
+  display: flex;
+  align-items: center;
+}
+
+.top-picks {
+  font-size: 2.5rem;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img a {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.logo-img img {
+  height: 60px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-form button {
+  background-color: rgb(53, 125, 151);
+  color: aliceblue;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: rgb(40, 96, 116);
+}
+
+nav .right-links {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  background-color: #f2f2f2;
+  padding: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-text {
+  flex: 1;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.intro-button {
+  background-color: rgb(53, 125, 151);
+  color: aliceblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.intro-button:hover {
+  background-color: rgb(40, 96, 116);
+}
+
+.intro-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.books {
+  margin-bottom: 30px;
+}
+
+.book {
+  flex: 0 0 300px;
+  margin: 35px;
+  text-align: center;
+}
+
+.book img {
+  width: 300px;
+  height: 350px;
+}
+
+.book-intro {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.book-intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-intro-image {
+  width: 300px;
+  height: 350px;
+}
+
+.book-intro-text {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.great-gatsby {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.read {
+  background-color: rgb(53, 125, 151);
+  color: aliceblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin-left: 130px;
+}
+
+.book-intro-content.image-moved .book-intro-image {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.book.image-moved .book-image {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+footer {
+  background-color: rgb(62, 158, 78);
+  color: #fff;
+  padding: 10px;
+}
+
+/* Carousel */
+.book-list {
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Hide the overflowing content */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel .carousel-slider {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.carousel .carousel-slider .carousel-item {
+  position: relative;
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel .carousel-slider .carousel-item .book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.carousel .carousel-slider .carousel-item .book img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel .carousel-slider .carousel-item .book h3,
+.carousel .carousel-slider .carousel-item .book p {
+  margin-top: 10px;
+}
+
+.carousel .carousel-slider .control-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel:hover .carousel-slider .control-arrow {
+  display: block;
+}
+
+.carousel .carousel-slider .control-arrow.prev {
+  left: 20px;
+}
+
+.carousel .carousel-slider .control-arrow.next {
+  right: 20px;
+}
+
+/* Book Slide */
+.book-slide {
+  flex: 0 0 100%; /* Set each slide to occupy full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-slide .book {
+  margin: 0;
+}
+
+.book-slide .book img {
+  width: 250px;
+  height: auto;
+}
+
+.book-slide .book h3,
+.book-slide .book p {
+  margin: 10px 0;
+}
+
+/* Add the following styles at the end of the file */
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.book {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.book-image {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.book-intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-intro-image {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.book-intro-text {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.image-moved .book-image,
+.image-moved .book-intro-image {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.bold {
+  background-color: #2c9172;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.bold:hover {
+  background-color: #165843;
+}
+
+.bold:focus {
+  outline: none;
+}

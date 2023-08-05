@@ -1,0 +1,49 @@
+/* CSS for EditItemForm component */
+.edit-item-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-item-form h2 {
+    text-align: center;
+  }
+  
+  .edit-item-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .edit-item-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-item-form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .edit-item-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-item-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-item-form button:focus {
+    outline: none;
+  }
+  

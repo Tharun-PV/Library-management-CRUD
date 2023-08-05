@@ -1,0 +1,16 @@
+.carousel-wrapper {
+    max-width: 800px; /* Adjust the width to fit your layout */
+    margin: 0 auto;
+  }
+  
+  .book {
+    /* Styling for each book slide */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; /* Adjust the height to fit your layout */
+    background-color: #f2f2f2; /* Customize the background color */
+    /* Add more styling as needed */
+  }
+  

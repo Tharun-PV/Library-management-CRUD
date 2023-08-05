@@ -1,0 +1,44 @@
+.payment{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(212, 222, 231);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 39px;
+}
+
+.payment h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.payment form{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment input[type='name'],
+.payment input[type='text']{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment button{
+    padding: 10px;
+    background-color: rgb(53, 125, 151);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75px;
+    margin: auto;
+    
+}
+
+.payment button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,49 @@
+/* CSS for AddItemForm component */
+.add-item-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-item-form h2 {
+    text-align: center;
+  }
+  
+  .add-item-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .add-item-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-item-form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-item-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-item-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-item-form button:focus {
+    outline: none;
+  }
+  
